@@ -1,4 +1,9 @@
 # Node_Installation
+![Project: ECU Sensing](https://img.shields.io/badge/Project-ECU%20Sensing-blueviolet)
+![Type: Guide](https://img.shields.io/badge/Type-Guide-important)
+![Language: C++](https://img.shields.io/badge/language-C++-blue)
+![TTN: v2](https://img.shields.io/badge/TTN-v2-success)
+![TTN: v3](https://img.shields.io/badge/TTN-v3-success)
 Overall guidance for ECU-Sensing node deployment. 
 
 ## Installation of External Tools
