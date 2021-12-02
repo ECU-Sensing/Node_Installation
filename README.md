@@ -4,6 +4,7 @@
 ![Language: C++](https://img.shields.io/badge/language-Python-blue)
 ![TTN: v2](https://img.shields.io/badge/TTN-v2-success)
 ![TTN: v3](https://img.shields.io/badge/TTN-v3-success)
+
 Overall guidance for ECU-Sensing node deployment. 
 
 ## Installation of External Tools
