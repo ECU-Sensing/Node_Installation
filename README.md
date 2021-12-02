@@ -16,10 +16,10 @@ Enable SPI (Raspi config --> Interfaces --> SPI --> Enable --> Reset)
 
 ## Download and Organize ECU-Sensing Tools
 Pull Code
-    git clone https://github.com/ECU-Sensing/Raspi_Zero_Node.git
+	git clone https://github.com/ECU-Sensing/Raspi_Zero_Node.git
 
 Install Dependencies
-    sudo pip3 install -r Raspi_Zero_Node/requirements.txt
+	sudo pip3 install -r Raspi_Zero_Node/requirements.txt
 
 ## Configure Instance-specific code
 Fill in keys.py from TTN
@@ -32,7 +32,7 @@ Install Data dependencies
 
 ## Utilize Cron Scheduler for Automation
 Open Crontab
-    sudo crontab -e
+	sudo crontab -e
 
 Add following line to the end
 	*/10 * * * *  python3 /home/pi/LoRa_Pi_Node/txrx_ttn.py
