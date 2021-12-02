@@ -8,12 +8,17 @@
 Overall guidance for ECU-Sensing node deployment. 
 
 ## Installation of External Tools
-sudo apt install git python3-pip -y
-sudo apt-get install i2c-tools -y
+	sudo apt install git python3-pip -y
+	sudo apt-get install i2c-tools -y
 
 ## Configuration for Raspberry Pi interfaces
-Enable I2c (Raspi config --> Interfaces --> I2c --> Enable --> Reset)
-Enable SPI (Raspi config --> Interfaces --> SPI --> Enable --> Reset)
+Enable I2c 
+
+	(Raspi config --> Interfaces --> I2c --> Enable --> Reset)
+	
+Enable SPI 
+
+	(Raspi config --> Interfaces --> SPI --> Enable --> Reset)
 
 ## Download and Organize ECU-Sensing Tools
 Pull Code
